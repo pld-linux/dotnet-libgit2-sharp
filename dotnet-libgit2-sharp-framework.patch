@@ -1,0 +1,20 @@
+--- libgit2sharp-0.21.1/Lib/CustomBuildTasks/CustomBuildTasks.csproj.orig	2015-03-18 14:44:44.000000000 +0100
++++ libgit2sharp-0.21.1/Lib/CustomBuildTasks/CustomBuildTasks.csproj	2016-02-10 22:01:16.443023651 +0100
+@@ -9,7 +9,7 @@
+     <AppDesignerFolder>Properties</AppDesignerFolder>
+     <RootNamespace>CustomBuildTasks</RootNamespace>
+     <AssemblyName>CustomBuildTasks</AssemblyName>
+-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
++    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+     <FileAlignment>512</FileAlignment>
+     <TargetFrameworkProfile />
+   </PropertyGroup>
+@@ -33,7 +33,7 @@
+   <ItemGroup>
+     <Reference Include="System" />
+     <Reference Include="Microsoft.Build.Framework" />
+-    <Reference Include="Microsoft.Build.Utilities" />
++    <Reference Include="Microsoft.Build.Utilities.v4.0" />
+   </ItemGroup>
+   <ItemGroup>
+     <Compile Include="GenerateUniqueIdentifierTask.cs" />
