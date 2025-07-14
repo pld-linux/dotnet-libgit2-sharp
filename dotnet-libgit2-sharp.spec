@@ -38,7 +38,7 @@ Pliki programistyczne biblioteki C# libgit2.
 
 %prep
 %setup -q -n libgit2sharp-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %{__rm} Lib/CustomBuildTasks/CustomBuildTasks.dll
 %{__rm} -r Lib/NativeBinaries
