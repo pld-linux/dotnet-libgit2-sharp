@@ -1,8 +1,12 @@
+#
+# managed dotnet code, no native debug sources
+%undefine	_debugsource_packages
+#
 Summary:	C# git library
 Summary(pl.UTF-8):	Biblioteka git dla C#
 Name:		dotnet-libgit2-sharp
 Version:	0.21.1
-Release:	3
+Release:	4
 License:	MIT
 Group:		Libraries
 #Source0Download: https://github.com/libgit2/libgit2sharp/releases
